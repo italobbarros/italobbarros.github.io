@@ -1,4 +1,4 @@
-# [LINCOLN WEBSITE](https://bit.ly/CV_LINCOLN "Lincoln's Website")
+# [Italo WEBSITE](https://bit.ly/CV_LINCOLN "Italo's Website")
 > Repository used for store Lincoln Wallace website data.
 
 This repo is was created to host my website (still in construction), with some informations about:
@@ -8,7 +8,7 @@ This repo is was created to host my website (still in construction), with some i
 - Professional Experience
 - Projects portfolio 
 
-Take a look into my website clicking [here](https://bit.ly/CV_LINCOLN "Lincoln's Website")
+Take a look into my website clicking [here](https://bit.ly/CV_Italo "Italo's Website")
 
 Some pictures of my website(still in construction)
 
