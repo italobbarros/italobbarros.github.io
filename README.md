@@ -1,5 +1,5 @@
 # [Italo WEBSITE](https://bit.ly/CV_LINCOLN "Italo's Website")
-> Repository used for store Lincoln Wallace website data.
+> Repository used for store Italo Barros website data.
 
 This repo is was created to host my website (still in construction), with some informations about:
 - Academic Education
