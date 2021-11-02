@@ -988,6 +988,7 @@ body > footer .copyrights {
   position: relative;
   padding: 15px 20px 10px;
   margin-left: 20px;
+  border-radius: 15px;
   margin-bottom: 20px;
   background-color: #fff;
   border-left: 2px solid #03bcbc;
@@ -1055,7 +1056,10 @@ body > footer .copyrights {
   border-left: 1px solid #e0e0e0;
 }
 
-
+.class-language{
+  position:relative;
+  bottom:225px;
+}
 
 /* Skills */
 .skills-info {
