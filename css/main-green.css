@@ -693,17 +693,19 @@ body > footer .copyrights {
 .site-main-menu li a:hover {
   display: block;
   position: relative;
+  right: 230px;
+  bottom:100px;
   padding: 8px 0;
   margin: 0 20px;
   text-align: center;
-  color: #49515d;
-  font-size: 15px;
+  text-shadow: #075169 2px 2px 5px;
+  color: #fff;
+  font-size: 20px;
   line-height: 1;
   font-weight: 400;
-  position: relative;
   text-decoration: none;
   outline: none;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .site-main-menu li:last-child a {
@@ -712,7 +714,6 @@ body > footer .copyrights {
 
 .site-main-menu li a:hover,
 .site-main-menu li.active a {
-  background-color: transparent;
   opacity: 1;
 }
 
@@ -811,6 +812,8 @@ body > footer .copyrights {
 }
 
 .custom-page-content .page-header.color-1 {
+  height: 200px;
+  width: auto;
   background-color: #03bcbc;
   background-image: url(../images/sp_main_bg.png);
   text-shadow: #075169 5px 5px;
@@ -840,11 +843,37 @@ body > footer .copyrights {
 /* =======================================
 7.1. Home subpage
 ======================================= */
+.pt-trigger-click{
+  position:relative;
+  right:230px;
+  bottom: 100px;margin:auto;
+  width: 120px;
+  background: rgba(255, 255, 255, 0.514);
+  backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  border: solid;
+  border-width:1px;
+  border-left-color: #82fdfd;
+  border-right-color: #82fdfd;
+  border-bottom-color: #82fdfd;
+  height: 35px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+	-webkit-animation: moveToBottom 2s ease-in-out both;
+	animation: moveToBottom 2s ease-in-out both;
+}
+.box-aba-style{
+  position: relative;
+  margin:auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
 .start-page-content .page-header {
   position: relative;
   background-color: #03bcbc;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 25px;
+  height: 300px;
   background-image: url(../images/sp_main_bg.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -855,7 +884,8 @@ body > footer .copyrights {
 
 .start-page-content .page-header .photo {
   max-width: 280px;
-  margin-bottom: -75px;
+  position: relative;
+  top:45px;left:40px;
   border-radius: 100%;
   border: 3px solid #fff;
   background-color: #fff;
@@ -882,13 +912,14 @@ body > footer .copyrights {
 
 .start-page-content .page-header .title-block {
   text-align: center;
-  text-shadow: #075169 5px 5px;
+  text-shadow: #075169 5px 5px 2px;
+  position:relative; bottom:20px;right:50px;
 }
 
 .start-page-content .page-header .title-block h1 {
   color: #fff;
   font-size: 60px;
-  position:relative; top:60px;right:40px;
+  position:relative;top:20px;
   font-weight: 700;
 }
 
@@ -896,9 +927,6 @@ body > footer .copyrights {
   color: #fff;
   text-shadow: #000 2px 2px 5px;
   font-size: 25px;
-  margin-top: 40px;
-  margin-right: 60px;
-  position:static;
 }
 
 .start-page-content .social-links {
