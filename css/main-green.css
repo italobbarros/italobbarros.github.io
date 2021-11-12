@@ -827,7 +827,7 @@ body > footer .copyrights {
   background-repeat: no-repeat;
 }
 .custom-page-content .page-header-back2 {
-  background-color: #015252;
+  background-color: #027b7b;
   position: static;
   padding: 30px;
   margin-bottom: 10px;
@@ -862,7 +862,7 @@ body > footer .copyrights {
   right:230px;
   bottom: 67px;margin:auto;
   width: 120px;
-  background: rgba(3, 188, 188, 0.6);
+  background: rgba(3, 188, 188, 0.7);
   backface-visibility: visible;
   -webkit-backface-visibility: visible;
   border: solid;
@@ -881,7 +881,7 @@ body > footer .copyrights {
   right:230px;
   bottom: 67px;margin:auto;
   width: 120px;
-  background-color: rgba(7, 99, 99, 0.40);
+  background-color: rgba(2, 139, 159, 0.5);
   backface-visibility: visible;
   -webkit-backface-visibility: visible;
   border: solid;
@@ -915,7 +915,7 @@ body > footer .copyrights {
 }
 .start-page-content .page-header-back {
   position: relative;
-  background-color: #015252;
+  background-color: #027b7b;
   padding: 30px;
   margin-bottom: 65px;
   height: 100px;
