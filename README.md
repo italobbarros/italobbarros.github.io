@@ -12,7 +12,7 @@ Take a look into my website clicking [here](https://bit.ly/CV_Italo "Italo's Web
 
 Some pictures of my website(still in construction)
 
-![](site_01.jpg)
+![](images/Inicio.jpg)
 
-![](PORTFOLIO_PRINT.jpg)
+
 
