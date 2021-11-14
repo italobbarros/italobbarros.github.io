@@ -821,7 +821,7 @@ body > footer .copyrights {
   background-color: #03bcbc;
   background-image: url(../images/sp_main_bg.png);
   text-shadow: #075169 5px 5px;
-  background-size: 100%;
+  background-size: contain;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2352,6 +2352,7 @@ blockquote footer, blockquote small, blockquote .small {
   .portfolio-grid figure {
     width: 33.33333%;
   }
+
 }
 
 @media only screen and (max-width: 1032px) {
@@ -2380,7 +2381,12 @@ blockquote footer, blockquote small, blockquote .small {
   .border-block-top-110 {
     display: none;
   }
-
+  .start-page-content .page-header .photo {
+    max-width: 200px;
+    position: relative;
+    top : 50px;
+    left: 150px;
+  }
   .header {
     width: 100%;
     max-width: 320px;
@@ -2483,7 +2489,7 @@ blockquote footer, blockquote small, blockquote .small {
   }
 
   .section-title-block {
-    margin-left: 0;
+    margin-left: 100;
     margin-right: 0;
     margin-bottom: 30px;
   }
@@ -2588,7 +2594,7 @@ blockquote footer, blockquote small, blockquote .small {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   .portfolio-grid figure {
     width: 50%;
   }
