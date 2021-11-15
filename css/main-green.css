@@ -2383,7 +2383,6 @@ blockquote footer, blockquote small, blockquote .small {
   }
   .start-page-content .page-header .photo {
     max-width: 200px;
-    position: relative;
     top : 50px;
     left: 150px;
   }
@@ -2489,7 +2488,7 @@ blockquote footer, blockquote small, blockquote .small {
   }
 
   .section-title-block {
-    margin-left: 100;
+    margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
   }
@@ -2594,65 +2593,6 @@ blockquote footer, blockquote small, blockquote .small {
   }
 }
 
-@media only screen and (max-width: 300px) {
-  .portfolio-grid figure {
-    width: 50%;
-  }
-
-  .home-page-block h2 {
-    font-size: 50px;
-  }
-
-  .home-page-description {
-    font-size: 18px;
-  }
-
-  .info-list {
-    margin-top: 20px;
-  }
-
-  .start-page-content .page-header {
-    padding: 50px 30px;
-    margin: 0;
-  }
-
-  .start-page-content .page-header .photo {
-    max-width: 200px;
-    position: relative;
-    top : 200px;
-    left: 250px;
-  }
-
-  .start-page-content .page-header .title-block h1 {
-    margin-top: 200px;
-    margin-left: 30px;
-    font-size: 44px;
-    line-height: 1.2em;
-  }
-
-  .start-page-content .page-header .title-block .sp-subtitle {
-    margin-top: 15px;
-    font-size: 20px;
 
 
-  }
-
-  .custom-page-content .page-header {
-    padding: 15px 30px;
-  }
-
-  .custom-page-content .page-header h2 {
-    font-size: 33px;
-  }
-
-  .blog-post-content {
-    padding: 0;
-    margin: 30px 0 0;
-  }
-
-  .blog-masonry.two-columns .item,
-  .blog-masonry.three-columns .item {
-    width: 100%;
-  }
-}
 
